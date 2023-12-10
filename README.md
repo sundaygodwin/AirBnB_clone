@@ -39,3 +39,41 @@ Making a Booking:
 	make_booking 5678 9876 "2023-12-20" "2023-12-25"
 
 These examples illustrate how a user might interact with the Airbnb clone console by entering commands and providing necessary arguments to perform various operations related to listings, users, and bookings.
+
+#Execution
+Code works like this in interactive mode:
+
+$ ./console.py
+(hbnb) help
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+
+(hbnb) 
+(hbnb) 
+(hbnb) quit
+$
+
+Code works like this in non- interactive mode:
+$ echo "help" | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb) 
+$
+$ cat test_help
+help
+$
+$ cat test_help | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb) 
+$
+
+Thanks
