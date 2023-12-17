@@ -1,2 +1,0 @@
-Alx SE
-Web Static
